@@ -1,3 +1,162 @@
 /*
 Aqui escribe tu codigo de CSS.
 */
+html,body { 
+height: 100%;
+}
+html { 
+	display: table; 
+	margin: auto;
+}
+body{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+.one {
+	background-color:#1E90FF;
+	border-radius: 15px;
+	height:150px; 
+	width:350px;
+	margin:10px 10px 10px 10px ;
+	text-align:center ; 
+	border-style:solid;
+	border-width:5px;	
+	border-color:#C0C0C0;
+	display: inline-block;
+}
+.two {
+	background-color: #FF8C00;
+	border-radius: 15px;
+	height:150px; 
+	width:350px;
+	margin:10px 10px 10px 10px ;
+	text-align:center ; 
+	border-style:solid;
+	border-width:5px;	
+	border-color:#C0C0C0;
+	display: inline-block;
+}
+
+.six { 
+		background-color: #40e0d0;
+		border-radius: 15px;
+		height:150px; 
+		width:350px;
+		margin:10px 10px 10px 10px ;
+		text-align:center ; 
+		border-style:solid;
+		border-width:5px;	
+		border-color:#C0C0C0;
+		display: inline-block;
+
+
+		}
+
+.three {
+	background-color: #db4437;
+	border-radius: 15px;
+	height:150px; 
+	width:350px;
+	margin:10px 10px 10px 10px ;
+	text-align:center ; 
+	border-style:solid;
+	border-width:5px;	
+	border-color:#C0C0C0;
+	display: inline-block;
+}
+
+.four {
+	background-color: #FFCC00;
+	border-radius: 15px;
+	height:150px; 
+	width:350px;
+	margin:10px 10px 10px 10px ;
+	text-align:center ; 
+	border-style:solid;
+	border-width:5px;	
+	border-color:#C0C0C0;
+	display: inline-block;
+
+}
+.five { 
+		background-color: #00BFFF;
+		border-radius: 15px;
+		height:150px; 
+		width:350px;
+		margin:10px 10px 10px 10px ;
+		text-align:center ; 
+		border-style:solid;
+		border-width:5px;	
+		border-color:#C0C0C0;
+		display: inline-block;
+	}
+
+
+
+body { 
+
+		background-color:#FFFFCC;
+		}	
+		
+a {
+	text-decoration: none;
+	color: #669999;
+	font-family: Verdana, sans-serif;
+
+}	
+span {
+	font-weight: bold;
+	font-size: 28px;
+	color: #FFFAF0;
+	margin:10px 10px 10px 10px ;
+}
+img { 
+	margin:-200px 10px 10px 10px ;
+}
+
+.pull-me{
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
+}
+.panel {
+	background: #FFFF99;
+    background-size: 1% 1%;
+    height:150px;
+	display:none;
+    font-family:garamond,times-new-roman,serif;
+
+}
+.panel p{
+    text-align:center;
+}
+.slide {
+	margin:0;
+	padding:0;
+	border-top:solid 0.5px #cc0000;
+
+}
+.pull-me {
+	display:block;
+    position:relative;
+    right:-965px;
+    width:150px;
+    height:20px;
+	font-family:arial,sans-serif;
+    font-size:14px;
+	color:#ffffff;
+    background:#cc0000;
+	text-decoration:none;
+    -moz-border-bottom-left-radius:5px;
+    -moz-border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    
+}
+.pull-me p {
+    text-align:center;
+}
